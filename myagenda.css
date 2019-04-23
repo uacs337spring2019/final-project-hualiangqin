@@ -1,0 +1,129 @@
+
+
+body {
+	background-image: url("background.jpg");
+	font-family: Palatino, serif;
+}
+
+#header {
+	background-color: #fcfab3;
+	box-shadow: 0 5px 5px lightgray;
+	height: 104px;
+	position: relative;
+}
+
+h1 {
+	bottom: 0px;
+	font-family: Tahoma, sans-serif;
+	font-size: 36pt;
+	position: absolute;
+	left: 40%;
+}
+
+span{
+	border: #dbadea solid 2px;
+	color: #dbadea;
+	font-size: 18pt;
+	right: 0px;
+	bottom: 0px;
+	padding: 3px;
+	position: absolute;
+}
+
+#back:hover{
+	cursor: pointer;
+}
+
+.portion{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 20px;
+}
+
+.portion div{
+	border: 1px solid black;
+	border-radius: 15px;
+	color: white;
+	font-size: 36pt;
+	height: 270px;
+	width: 270px;
+	margin: 20px;
+}
+
+#input div{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+#input{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40%;
+}
+
+textarea{
+	margin-bottom: 10px;
+}
+
+#display{
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 22pt;
+	height: 1200px;
+	width: 1000px;
+	margin: 10px;
+	background-image: url("notebook.png");
+}
+
+#weekday > div{
+	font-size: 15pt;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#submit{
+	height: 30px;
+	background-color: #9bf2f7;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.title{
+	text-align: center;
+}
+
+#picture{
+	background-image: url("MtoF.gif");
+}
+
+#Monday{
+	background-color: #302f2f
+}
+
+#Tuesday{
+	background-color: #3a3a3a
+}
+
+#Wednesday{
+	background-color: #4c4b4b
+}
+
+#Thursday{
+	background-color: #5b5a5a
+}
+
+#Friday{
+	background-color: #706f6f
+}
+
+#Saturday{
+	background-color: #848383
+}
+
+#Sunday{
+	background-color: #999797
+}

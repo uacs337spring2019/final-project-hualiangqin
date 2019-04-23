@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>myagenda</title>
+		<link rel="stylesheet" type="text/css" href="myagenda.css"/>
+		<script type="text/javascript" src="myagenda.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<h1>My Agenda!</h1>
+			<span id="back">Go back to my week</span>
+
+		</div>
+
+		<div id="week">
+			<div class="portion">
+				<div id="Monday">Monday</div>
+				<div id="Tuesday">Tuesday</div>
+				<div id="Wednesday">Wednesday</div>
+				<div id="Thursday">Thursday</div>
+			</div>
+			<div class="portion">
+				<div id="Friday">Friday</div>
+				<div id="picture"></div>
+				<div id="Saturday">Saturday</div>
+				<div id="Sunday">Sunday</div>
+			</div>
+		</div>
+
+		<div id="weekday">
+			<div>
+				<div id="input">
+					<div>
+						<label for="timeBegin">Time Begin:</label>
+						<input type="text" placeholder="From" id="timeBegin">
+						<label for="timeEnd">Time End:</label>
+						<input type="text" placeholder="to" id="timeEnd">
+					</div>
+					<textarea id="plan" rows="4" cols="20" placeholder="Type your plan here."></textarea>
+					<input type="submit" value="Add to Agenda" id="submit" />
+				</div>
+
+				<div id="display"></div>
+
+			</div>
+			
+		</div>
+
+
+	</body>
+</html>
