@@ -12,6 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node myagenda_service.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uacs337spring2019/final-project-hualiangqin"
+  },
   "keywords": ["node", "express", "static"],
   "author": "Ryan Qin",
   "license": "ISC"
