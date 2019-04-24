@@ -75,7 +75,7 @@ back to the eight blocks
 	//and call the function displayData to display the data on a div
 	function fetchData(mode){
 		theDay = mode;
-		let url = "http://localhost:3000?day=" + mode; 
+		let url = "http://myagenda-hualiang.herokuapp.com?day=" + mode; 
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText) {
@@ -119,7 +119,7 @@ back to the eight blocks
 
 	//purpose: this function send parameters to the "post" 
 	function submit(){
-		let url = "http://localhost:3000?day=" + theDay;
+		let url = "http://myagenda-hualiang.herokuapp.com?day=" + theDay;
 		let timeBegin = document.getElementById("timeBegin").value;
 		let timeEnd = document.getElementById("timeEnd").value;
 		let plan = document.getElementById("plan").value;
