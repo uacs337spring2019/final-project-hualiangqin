@@ -1,5 +1,9 @@
 /*
 Author: Ryan Qin
+cs337 19 spring
+Instructor: Allison Obourn
+Assignment 11(final project): myagenda_service.js
+Description: provided web service of mygenda.js
 */
 
 const express = require("express");
@@ -18,8 +22,8 @@ app.use(function(req, res, next) {
 });
 
 /*
-Purpose: this function reads the file and extract out the name and comment
-of each line in the file messages.txt and convert it in the form of json
+Purpose: this function reads the file and extract out the time and event
+of each line in the file (Monday.txt, Tuesday.txt) and convert it in the form of json
 */
 function readFile(filename){
 	let file = fs.readFileSync(filename, "utf8");
@@ -42,7 +46,7 @@ function readFile(filename){
 }
 
 /*
-Purpose: this function append a new line in the messages.txt file
+Purpose: this function append a new line to the (Monday.txt, Tuesday.txt...) file
 */
 function writeFile(filecontent, day){
 	let filename = day + ".txt"

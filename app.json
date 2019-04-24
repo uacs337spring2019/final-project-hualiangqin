@@ -1,0 +1,7 @@
+{
+	"name": "final-project-hualiangqin",
+	"description": "final project for css337",
+	"repository": "https://github.com/uacs337spring2019/final-project-hualiangqin",
+	"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+	"keywords": ["node", "express", "static"]
+}
