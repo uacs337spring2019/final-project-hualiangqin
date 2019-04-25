@@ -75,7 +75,7 @@ back to the eight blocks
 	//and call the function displayData to display the data on a div
 	function fetchData(mode){
 		theDay = mode;
-		let url = "http://myagenda-hualiang.herokuapp.com?day=" + mode; 
+		let url = "https://myagenda-hualiang.herokuapp.com/?day=" + mode; 
 		fetch(url)
 			.then(checkStatus)
 			.then(function(responseText) {
