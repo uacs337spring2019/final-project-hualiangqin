@@ -60,7 +60,7 @@ back to the eight blocks
 		alert("What do you want?");
 		alert("You thought I would give you a surprise?");
 		alert("No way!");
-		alert("btw, you look enthusiastic and passionate on your stuff today!")
+		alert("btw, you look enthusiastic and passionate today!")
 	}
 
 	//purpose: this function start a timer and change the page
