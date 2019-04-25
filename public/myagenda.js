@@ -119,7 +119,7 @@ back to the eight blocks
 
 	//purpose: this function send parameters to the "post" 
 	function submit(){
-		let url = "https://myagenda-hualiang.herokuapp.com?day=" + theDay;
+		let url = "https://myagenda-hualiang.herokuapp.com/?day=" + theDay;
 		let timeBegin = document.getElementById("timeBegin").value;
 		let timeEnd = document.getElementById("timeEnd").value;
 		let plan = document.getElementById("plan").value;
