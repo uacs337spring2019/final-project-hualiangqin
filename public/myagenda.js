@@ -33,7 +33,7 @@ back to the eight blocks
 	//purpose: this function go back to the page that contains eight blocks
 	//and stop the timer
 	function goBack() {
-		console.log(1);
+		console.log("goback is clicked");
 		document.getElementById("display").innerHTML = "";
 		document.getElementById("weekday").hidden = true;
 		document.getElementById("week").hidden = false;
