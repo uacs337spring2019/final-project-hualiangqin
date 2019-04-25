@@ -18,6 +18,7 @@ back to the eight blocks
 	window.onload = function() {
 		document.getElementById("weekday").hidden = true;
 		let back = document.getElementById("back");
+		console.log(back);
 		back.onclick = goBack;
 		document.getElementById("picture").onclick = surprise;
 		document.getElementById("Monday").onclick = showDay;
